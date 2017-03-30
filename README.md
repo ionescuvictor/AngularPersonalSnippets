@@ -41,66 +41,7 @@
         <!-- BEGIN HEADER -->
         <?php echo $navigationmenu_content ?>
         <!-- END HEADER -->
-        <div class="container-fluid">
-            <div class="page-content" style="padding-top: 48px;">
-
-                <div class="col-md-4" style="height:400px;margin-top:15px">
-                    <div style="border: 1px solid lightgrey;border-bottom-left-radius: 2em;border-bottom-right-radius:2em;height: 100%;">
-                        <img style="max-height:100%;max-width:100%;" src="../../App/assets/Dashboard/3-routers-icon-block-2.png" />
-
-                        <p id="p_e989_0" style="margin-top:13px">
-                            <span id="span_e989_0">
-                                <b id="b_e989_0">
-                                    <?php echo $Model->BorderRouters; ?>
-                                </b>
-                            </span>
-                            <span id="span_e989_1">Border Routers Joined</span>
-                        </p>
-
-                        <p id="p_e989_0">
-                            <span id="span_e989_0">
-                                <b id="b_e989_0">
-                                    <?php echo $Model->ActiveBorderRouters; ?>
-                                </b>
-                            </span>
-                            <span id="span_e989_1">Active Routers Joined</span>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-4" style="height:400px;margin-top:15px">
-                    <div style="border: 1px solid lightgrey;border-bottom-left-radius: 2em;border-bottom-right-radius:2em;height: 100%;">
-                        <img style="max-height:100%;max-width:100%;" src="../../App/assets/Dashboard/4-devices-icon-block-2.png" />
-
-                        <p id="p_e989_0" style="margin-top:13px">
-                            <span id="span_e989_0">
-                                <b id="b_e989_0">
-                                    <?php echo $Model->DevicesJoined; ?>
-                                </b>
-                            </span>
-                            <span id="span_e989_1">Devices Joined</span>
-                        </p>
-
-                        <p id="p_e989_0" style="margin-top:5px">
-                            <span id="span_e989_0">
-                                <b id="b_e989_0">
-                                    <?php echo $Model->ActiveEndDevices; ?>
-                                </b>
-                            </span>
-                            <span id="span_e989_1">Active Devices</span>
-                        </p>
-
-                        <p id="p_e989_0" style="margin-top:5px">
-                            <span id="span_e989_0">
-                                <b id="b_e989_0">
-                                    <?php echo $Model->DevicesJustJoined; ?>
-                                </b>
-                            </span>
-                            <span id="span_e989_1">Devices just joined</span>
-                        </p>
-
-                    </div>
-                </div>
+    
 
                 <div class="col-md-4" style="height:400px;margin-top:15px">
                     <div style="border: 1px solid lightgrey;border-bottom-left-radius: 2em;border-bottom-right-radius:2em;height: 100%;">
@@ -248,12 +189,7 @@
                 </div>
 
             </div>
-            <!-- BEGIN FOOTER -->
-            <p class="copyright">
-                2016 &copy; CENTERO
-            </p>
-            <!-- END FOOTER -->
-
+          
         </div>
 
 
